@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-memebotapp-dev-212804-authRole",
+      "UnauthRoleArn": "arn:aws:iam::951899945193:role/amplify-memebotapp-dev-212804-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::951899945193:role/amplify-memebotapp-dev-212804-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-memebotapp-dev-212804-deployment",
+      "UnauthRoleName": "amplify-memebotapp-dev-212804-unauthRole",
+      "StackName": "amplify-memebotapp-dev-212804",
+      "StackId": "arn:aws:cloudformation:us-east-2:951899945193:stack/amplify-memebotapp-dev-212804/b3634230-ecd4-11ea-b706-060f9727d0d0",
+      "AmplifyAppId": "d3nntiq4hdhrzo"
+    }
+  }
+}
