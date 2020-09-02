@@ -1,0 +1,35 @@
+{
+    "paths": [
+        {
+            "name": "/feedapi",
+            "lambdaFunction": "feedapi",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/feedapi"
+        }
+    ],
+    "resourceName": "feedapi",
+    "apiName": "feedapi",
+    "functionArns": [
+        {
+            "lambdaFunction": "feedapi"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-memebotapp-dev-212804-authRole",
+        "unAuthRoleName": "amplify-memebotapp-dev-212804-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "feedapi",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
